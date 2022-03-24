@@ -2,7 +2,7 @@
 <div class="w1/2 mx-auto">
 <h1>{{$route.params.id}}</h1>
 <h1 class="text-5xl mb-8">{{dish.title}}</h1>
-<img :src="item.image" />
+<img :src="dish.image" />
 <p class="mb-8">{{dish.description}}</p>
 <nuxt-content document="dish"></nuxt-content>
 </div>
